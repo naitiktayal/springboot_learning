@@ -153,4 +153,24 @@ public class StudentController {
         return "Hello " + name;
     }
 
+    @GetMapping("welcome")
+    public String welcome (@RequestParam String name, @RequestParam String collage) {
+        return " welcome " + name + " from " + collage;
+    }
+
+    @GetMapping("/fullname")
+    public String fullName(@RequestParam String first, @RequestParam String last) {
+        return first + " " + last;
+    }
+
+    @GetMapping("/studentInfo")
+    public String studentInfo(
+            @RequestParam String name,
+            @RequestParam String college,
+            @RequestParam int age) {
+
+        return "Name : " + name +
+                "\nCollege : " + college +
+                "\nAge : " + age;
+    }
 }
