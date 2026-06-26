@@ -8,9 +8,9 @@ This repository contains my complete Spring Boot Backend Developer journey.
 - Day 3 - GET APIs
 - Day 4 - POST APIs
 - Day 5 - Path Variables
+- Day 6 - RequestParam
 
 ## Upcoming
-- Day 6 - RequestParam
 - Day 7 - ResponseEntity
 - Day 8 - CRUD APIs
 - Day 9 - Service Layer
